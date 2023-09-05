@@ -2,7 +2,10 @@
 ## Idaho National Laboratory
 
 **Students' Names:**
-
+Even Pham - Computer Science - Student Team Member
+James McGlone - Computer Science - Student Team Member
+Miles Fagan - Computer Science - Student Team Member
+Megan Sorochin - Computer Science - Student Team Member
 **Mentor:**
 
 Milos Manic
