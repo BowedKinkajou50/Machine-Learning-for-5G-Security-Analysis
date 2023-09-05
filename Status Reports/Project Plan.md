@@ -1,11 +1,11 @@
-# *CSnnn Project Name*
-## **Sponsor:**
+# CS 24-327  Machine Learning for 5G Security Analysis
+## Idaho National Laboratory
 
 **Students' Names:**
 
 **Mentor:**
 
-**Faculty Advisor:**
+Milos Manic
 
 **Project:**
 
