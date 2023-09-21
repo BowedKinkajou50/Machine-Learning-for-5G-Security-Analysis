@@ -10,9 +10,9 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Document | Tasks | Accomplishments | Issues |
 |---|---|---|---|
 | Project Plan | Overall week by week plan of milestones | | |
-| Week 1 Status Report | | | |
-| Week 2 Status Report | | | |
-| Week 3 Status Report | | | |
+| Week 1 Status Report | Meet with instructor | Met with the instructor | |
+| Week 2 Status Report | Meet with the Sponser of the project | Met with the sponser of the project | |
+| Week 3 Status Report | Meet with the sponser to understand more of the project | Met with sponser | Manic was absent during the meeting due to family issues and the meeting was cut short|
 | Week 4 Status Report | | | |
 | Week 5 Status Report | | | |
 | Week 6 Status Report | | | |
