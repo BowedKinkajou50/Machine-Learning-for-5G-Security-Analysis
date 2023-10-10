@@ -15,7 +15,7 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Week 3 Status Report | Meet with the sponser to understand more of the project | Met with sponser | Manic was absent during the meeting due to family issues and the meeting was cut short|
 | Week 4 Status Report | | | |
 | Week 5 Status Report | | | |
-| Week 6 Status Report | | | |
+| Week 6 Status Report | Worked on project proposal and list of big rocks | Finished project proposal | |
 | Week 7 Status Report | | | |
 | Week 8 Status Report | | | |
 | Week 9 Status Report | | | |
