@@ -19,11 +19,11 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Week 7 Status Report | meet with sponsor | Presented big rocks and project proposal |  |
 | Week 8 Status Report | Continued research | Met with each other to work on research | |
 | Week 9 Status Report | Pseudocode for algorithms and overview for each algorithm | Met with Sponsor to go over research | Two group members could not make the meeting with the sponsor due to having a class at the time of the meeting. The sponsor would prefer to keep the meeting time the same and only have two of four group members present for each meeting. |
-| Week 10 Status Report | | | |
-| Week 11 Status Report | | | |
-| Week 12 Status Report | | | |
-| Week 13 Status Report | | | |
-| Week 14 Status Report | | | |
+| Week 10 Status Report | Worked on Pseudocode and overview for algorithms | Created and presented poster for project | |
+| Week 11 Status Report | Prototype and final report | Met with Sponsor to go over pseudocode and overview for algorithms | |
+| Week 12 Status Report | Prototype and final report | Thanksgiving break | |
+| Week 13 Status Report | Prototype and final report | Met with Sponsor to go over progress on prototype | |
+| Week 14 Status Report | Prototype and final report | Worked on prototype and final report, Researched neural networks, and Presented poster at Capstone presentation expo | |
 | Week 15 Status Report | | | |
 | Week 16 Status Report | | | |
 
