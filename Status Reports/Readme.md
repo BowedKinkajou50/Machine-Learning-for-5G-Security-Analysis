@@ -18,7 +18,7 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Week 6 Status Report | Worked on project proposal and list of big rocks | Finished project proposal | |
 | Week 7 Status Report | meet with sponsor | Presented big rocks and project proposal |  |
 | Week 8 Status Report | Continued research | Met with each other to work on research | |
-| Week 9 Status Report | | | |
+| Week 9 Status Report | Pseudocode for algorithms and overview for each algorithm | Met with Sponsor to go over research | Two group members could not make the meeting with the sponsor due to having a class at the time of the meeting. The sponsor would prefer to keep the meeting time the same and only have two of four group members present for each meeting. |
 | Week 10 Status Report | | | |
 | Week 11 Status Report | | | |
 | Week 12 Status Report | | | |
