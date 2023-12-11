@@ -1,5 +1,4 @@
 # Decision Tree
-
 import numpy as np 
 import pandas as pd 
 from sklearn.metrics import confusion_matrix 
@@ -54,7 +53,7 @@ def tarin_using_entropy(X_train, X_test, y_train):
     clf_entropy = DecisionTreeClassifier( 
             criterion = "entropy", random_state = 100, 
             max_depth = 3, min_samples_leaf = 5) 
-  
+    
     # Performing training 
     clf_entropy.fit(X_train, y_train) 
     return clf_entropy 
