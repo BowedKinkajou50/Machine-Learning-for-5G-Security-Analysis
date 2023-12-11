@@ -8,13 +8,13 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report 
   
 # Function importing Dataset 
-def importdata(): 
+def importdata(): #importing of data
     balance_data = pd.read_csv( 
 'https://archive.ics.uci.edu/ml/machine-learning-'+
 'databases/balance-scale/balance-scale.data', 
     sep= ',', header = None) 
       
-    # Printing the dataswet shape 
+    # Printing the dataset shape 
     print ("Dataset Length: ", len(balance_data)) 
     print ("Dataset Shape: ", balance_data.shape) 
       
@@ -31,7 +31,7 @@ def splitdataset(balance_data):
   
     # Splitting the dataset into train and test 
     X_train, X_test, y_train, y_test = train_test_split(  
-    X, Y, test_size = 0.3, random_state = 100) 
+    X, Y, test_size = 0.3, random_state = 100) #split the data set into .3 into the training dataset, and .7 into the test dataset.
       
     return X, Y, X_train, X_test, y_train, y_test 
       
