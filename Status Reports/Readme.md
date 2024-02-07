@@ -31,8 +31,8 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Document | Tasks | Accomplishments| Issues |
 |---|---|---|---|
 | Week 1 Status Report | Implementation and Testing | Went over semester plan | |
-| Week 2 Status Report | | | |
-| Week 3 Status Report | | | |
+| Week 2 Status Report | Implementation and Testing | Worked on Implementation and went over questions with sponsor | |
+| Week 3 Status Report | Implementation and Testing | Worked on Implementation and went over questions with sponsor | |
 | Week 4 Status Report | | | |
 | Week 5 Status Report | | | |
 | Week 6 Status Report | | | |
