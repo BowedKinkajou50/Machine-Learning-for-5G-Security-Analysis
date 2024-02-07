@@ -24,14 +24,13 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Week 12 Status Report | Prototype and final report | Thanksgiving break | |
 | Week 13 Status Report | Prototype and final report | Met with Sponsor to go over progress on prototype | |
 | Week 14 Status Report | Prototype and final report | Worked on prototype and final report, Researched neural networks, and Presented poster at Capstone presentation expo | |
-| Week 15 Status Report | | | |
-| Week 16 Status Report | | | |
+| Week 15 Status Report | SOW tasking Document | Met with Sponsor to go over SOW Tasking document | |
 
 ## 2nd Semester
 
 | Document | Tasks | Accomplishments| Issues |
 |---|---|---|---|
-| Week 1 Status Report | | | |
+| Week 1 Status Report | Implementation and Testing | Went over semester plan | |
 | Week 2 Status Report | | | |
 | Week 3 Status Report | | | |
 | Week 4 Status Report | | | |
