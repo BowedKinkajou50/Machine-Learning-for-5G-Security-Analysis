@@ -1,7 +1,10 @@
 import numpy as np
- # Imports
 from sklearn.model_selection import train_test_split
 from sklearn import datasets
+from sklearn.neural_network import MLPClassifier
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import accuracy_score
 
 class NaiveBayes:
 
@@ -66,3 +69,14 @@ if __name__ == "__main__":
     predictions = nb.predict(X_test)
 
     print("Naive Bayes classification accuracy", accuracy(y_test, predictions))
+    
+    # Neural Network
+    nn_pipeline = Pipeline([
+        ('scaler', StandardScaler()),  # Standardize features
+        ('nn', MLPClassifier(hidden_layer_sizes=(100,), max_iter=1000, random_state=123))  # Neural Network
+    ])
+
+    nn_pipeline.fit(X_train, y_train)
+    nn_predictions = nn_pipeline.predict(X_test)
+
+    print("Neural Network classification accuracy:", accuracy(y_test, nn_predictions))

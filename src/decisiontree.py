@@ -5,6 +5,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split 
 from sklearn.tree import DecisionTreeClassifier 
 from sklearn.metrics import accuracy_score 
+from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report 
   
 # Function importing Dataset 
@@ -79,6 +80,14 @@ def cal_accuracy(y_test, y_pred):
       
     print("Report : ", 
     classification_report(y_test, y_pred)) 
+    
+def train_using_neural_network(X_train, X_test, y_train):
+    # Creating the classifier object
+    clf_nn = MLPClassifier(hidden_layer_sizes=(100,), max_iter=1000, random_state=123)
+    
+    # Performing training
+    clf_nn.fit(X_train, y_train)
+    return clf_nn
   
 # Driver code 
 def main(): 
@@ -88,7 +97,7 @@ def main():
     X, Y, X_train, X_test, y_train, y_test = splitdataset(data) 
     clf_gini = train_using_gini(X_train, X_test, y_train) 
     clf_entropy = tarin_using_entropy(X_train, X_test, y_train) 
-      
+    clf_nn = train_using_neural_network(X_train, X_test, y_train)  
     # Operational Phase 
     print("Results Using Gini Index:") 
       
@@ -100,7 +109,13 @@ def main():
     # Prediction using entropy 
     y_pred_entropy = prediction(X_test, clf_entropy) 
     cal_accuracy(y_test, y_pred_entropy) 
-      
+    
+    print("Results Using Neural Network:")
+    
+    # Prediction using neural network
+    y_pred_nn = prediction(X_test, clf_nn)
+    cal_accuracy(y_test, y_pred_nn)
+
       
 # Calling main function 
 if __name__=="__main__": 
