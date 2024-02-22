@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, confu
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
 # Load the dataset
-df = pd.read_csv(r'C:\Users\Angela\OneDrive\Desktop\EVEN STUFF\CS-24-327-Machine-Learning-for-5G-Security-Analysis\src\DDoS.csv')
+df = pd.read_csv(r'src\DDoS.csv')
 # Remove spaces and convert column names to lowercase
 df.columns = df.columns.str.replace(' ', '').str.lower()
 
