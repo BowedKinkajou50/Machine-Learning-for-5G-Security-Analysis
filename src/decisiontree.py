@@ -2,13 +2,11 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score, precision_score, recall_score
-from sklearn.metrics import confusion_matrix
-from sklearn.preprocessing import LabelEncoder
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.metrics import accuracy_score, precision_score, recall_score, confusion_matrix
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
 # Load the dataset
-df = pd.read_csv('../src/Trainingdata.csv')
+df = pd.read_csv(r'C:\Users\Angela\OneDrive\Desktop\EVEN STUFF\CS-24-327-Machine-Learning-for-5G-Security-Analysis\src\DDoS.csv')
 # Remove spaces and convert column names to lowercase
 df.columns = df.columns.str.replace(' ', '').str.lower()
 
@@ -27,12 +25,14 @@ X = df.drop('class', axis=1)
 y = df['class']
 
 # Use OneHotEncoder to encode categorical variables
-encoder = OneHotEncoder(drop='first', sparse=False)
+encoder = OneHotEncoder(drop='first')
 X_encoded = encoder.fit_transform(X.select_dtypes(include=['object']))
 
+# Convert the encoded features to a DataFrame
+X_encoded_df = pd.DataFrame(X_encoded.toarray(), columns=encoder.get_feature_names_out(X.select_dtypes(include=['object']).columns))
+
 # Concatenate the encoded features with the remaining numerical features
-X_encoded_df = pd.DataFrame(X_encoded, columns=encoder.get_feature_names_out(X.select_dtypes(include=['object']).columns))
-X = pd.concat([X.drop(X.select_dtypes(include=['object']).columns, axis=1), X_encoded_df], axis=1)
+X = pd.concat([X.select_dtypes(exclude=['object']), X_encoded_df], axis=1)
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
