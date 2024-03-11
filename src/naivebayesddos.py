@@ -8,28 +8,27 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the dataset
-df = pd.read_csv(r'src/DDoS.csv')
+df = pd.read_csv(r'src/DDoS_100000.csv')
 
 # Remove spaces and convert column names to lowercase
 df.columns = df.columns.str.replace(' ', '').str.lower()
 
-# Print the cleaned column names to verify
-print(df.columns)
+start_index = 50000
+end_index = 100000
 
-# Drop the 'flowid' column for simplicity
-df = df.drop('flowid', axis=1)
+df = df.drop(index=range(start_index, end_index), inplace=True)
 
-# Encode the 'class' column
+# Encode the 'label' column
 label_encoder = LabelEncoder()
-df['class'] = label_encoder.fit_transform(df['class'])
+df['label'] = label_encoder.fit_transform(df['label'])
 
 # Split the data into features (X) and target variable (y)
-X = df.drop('class', axis=1)
-y = df['class']
+X = df.drop('label', axis=1)
+y = df['label']
 
-# Use OneHotEncoder to encode categorical variables
-encoder = OneHotEncoder(drop='first')
+encoder = OneHotEncoder(drop='first', sparse_output=True)
 X_encoded = encoder.fit_transform(X.select_dtypes(include=['object']))
+
 
 # Convert the encoded features to a DataFrame
 X_encoded_df = pd.DataFrame(X_encoded.toarray(), columns=encoder.get_feature_names_out(X.select_dtypes(include=['object']).columns))
