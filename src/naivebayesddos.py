@@ -8,15 +8,11 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the dataset
-df = pd.read_csv(r'src/DDoS_100000.csv')
+df = pd.read_csv(r'src/modified_dataset.csv')
 
 # Remove spaces and convert column names to lowercase
 df.columns = df.columns.str.replace(' ', '').str.lower()
 
-start_index = 50000
-end_index = 100000
-
-df = df.drop(index=range(start_index, end_index), inplace=True)
 
 # Encode the 'label' column
 label_encoder = LabelEncoder()
