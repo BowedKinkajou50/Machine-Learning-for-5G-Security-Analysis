@@ -8,12 +8,13 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the dataset
-df = pd.read_csv(r'src/modified_dataset.csv')
+df = pd.read_csv(r'src/ddos_modified.csv')
 
 # Remove spaces and convert column names to lowercase
 df.columns = df.columns.str.replace(' ', '').str.lower()
 
-
+num = df.shape[0]
+print(num)
 # Encode the 'label' column
 label_encoder = LabelEncoder()
 df['label'] = label_encoder.fit_transform(df['label'])
@@ -31,7 +32,7 @@ X_encoded_df = pd.DataFrame(X_encoded.toarray(), columns=encoder.get_feature_nam
 X = pd.concat([X.drop(X.select_dtypes(include=['object']).columns, axis=1), X_encoded_df], axis=1)
 
 # Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=500)
 
 # Initialize the Naive Bayes classifier
 model = GaussianNB()
