@@ -2,25 +2,23 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score, precision_score, recall_score, confusion_matrix
+from sklearn.metrics import accuracy_score, precision_score, recall_score
+from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
 # Load the dataset
-df = pd.read_csv(r'CS-24-327-Machine-Learning-for-5G-Security-Analysis\src\ddos_modified.csv')
+df = pd.read_csv(r'CS-24-327-Machine-Learning-for-5G-Security-Analysis/src/fraud_modified.csv')
 
 # Remove spaces and convert column names to lowercase
 df.columns = df.columns.str.replace(' ', '').str.lower()
 
-num = df.shape[0]
-print(num)
-
-# Encode the 'label' column
+# Encode the 'class' column
 label_encoder = LabelEncoder()
-df['label'] = label_encoder.fit_transform(df['label'])
+df['isfraud'] = label_encoder.fit_transform(df['isfraud'])
 
 # Split the data into features (X) and target variable (y)
-X = df.drop('label', axis=1)
-y = df['label']
+X = df.drop('isfraud', axis=1)
+y = df['isfraud']
 
 encoder = OneHotEncoder(drop='first', sparse_output=True)
 X_encoded = encoder.fit_transform(X.select_dtypes(include=['object']))
@@ -30,7 +28,7 @@ X_encoded_df = pd.DataFrame(X_encoded.toarray(), columns=encoder.get_feature_nam
 X = pd.concat([X.drop(X.select_dtypes(include=['object']).columns, axis=1), X_encoded_df], axis=1)
 
 # Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=500)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=200)
 
 # Initialize the Decision Tree classifier
 model = DecisionTreeClassifier(random_state=0)
