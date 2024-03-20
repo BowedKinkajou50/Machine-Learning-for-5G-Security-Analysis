@@ -1,3 +1,4 @@
+#Authors: Miles Fagan and James McGlone.
 import pandas as pd
 from sklearn.neural_network import MLPClassifier
 from sklearn.preprocessing import LabelEncoder
