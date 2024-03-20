@@ -20,7 +20,7 @@ X = data[['amount']]
 y = data['isfraud']
 
 # Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=200)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=500)
 
 # Initialize the Multi-layer Perceptron Classifier
 clf = MLPClassifier(hidden_layer_sizes=(10,), max_iter=1000)
@@ -41,7 +41,7 @@ accuracy = accuracy_score(y_test, predictions)
 print("Accuracy:", accuracy)
 
 # Calculate precision
-precision = precision_score(y_test, predictions, average='weighted')
+precision = precision_score(y_test, predictions, average='weighted', zero_division=0)
 print("Precision:", precision)
 
 # Calculate recall
