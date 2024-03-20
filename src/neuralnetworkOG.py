@@ -9,7 +9,6 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
-#made to work with ddos modified but doesn't work
 #NOT USING CURRENTLY
 
 OHE_model = OneHotEncoder(handle_unknown = 'infrequent_if_exist')
