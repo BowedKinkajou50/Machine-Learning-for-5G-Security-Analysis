@@ -1,36 +1,36 @@
 Grid Search Results:
 Test 1:
-Parameters: {'max_depth': None, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
-[[ 152    3]
- [   4 2841]]
-Model Performance:
-Accuracy: 0.9976666666666667
-Precision: 0.9976748620577733
-Recall: 0.9976666666666667
-
-Test 2:
-Parameters: {'max_depth': None, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 152    3]
- [   1 2844]]
-Model Performance:
-Accuracy: 0.9986666666666667
-Precision: 0.998663011862045
-Recall: 0.9986666666666667
-
-Test 3:
-Parameters: {'max_depth': None, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 153    2]
+[[   0  155]
  [   0 2845]]
 Model Performance:
-Accuracy: 0.9993333333333333
-Precision: 0.9993338016625688
-Recall: 0.9993333333333333
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 2:
+Parameters: {'max_depth': 5, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 3:
+Parameters: {'max_depth': 5, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 10}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 4:
-Parameters: {'max_depth': None, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -40,7 +40,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 5:
-Parameters: {'max_depth': None, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -50,7 +50,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 6:
-Parameters: {'max_depth': None, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -60,7 +60,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 7:
-Parameters: {'max_depth': None, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -70,7 +70,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 8:
-Parameters: {'max_depth': None, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -80,7 +80,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 9:
-Parameters: {'max_depth': None, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -90,37 +90,37 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 10:
-Parameters: {'max_depth': None, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
-[[ 149    6]
- [   3 2842]]
+[[   0  155]
+ [   0 2845]]
 Model Performance:
-Accuracy: 0.997
-Precision: 0.9969823698994678
-Recall: 0.997
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 11:
-Parameters: {'max_depth': None, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
-[[ 148    7]
- [   6 2839]]
+[[   0  155]
+ [   0 2845]]
 Model Performance:
-Accuracy: 0.9956666666666667
-Precision: 0.9956544995178164
-Recall: 0.9956666666666667
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 12:
-Parameters: {'max_depth': None, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
-[[ 153    2]
- [   6 2839]]
+[[   0  155]
+ [   0 2845]]
 Model Performance:
-Accuracy: 0.9973333333333333
-Precision: 0.9973827091621118
-Recall: 0.9973333333333333
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 13:
-Parameters: {'max_depth': None, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -130,7 +130,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 14:
-Parameters: {'max_depth': None, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -140,7 +140,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 15:
-Parameters: {'max_depth': None, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -150,7 +150,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 16:
-Parameters: {'max_depth': None, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -160,7 +160,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 17:
-Parameters: {'max_depth': None, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -170,7 +170,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 18:
-Parameters: {'max_depth': None, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -180,37 +180,37 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 19:
-Parameters: {'max_depth': None, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
-[[ 154    1]
+[[   0  155]
  [   0 2845]]
 Model Performance:
-Accuracy: 0.9996666666666667
-Precision: 0.9996667837901148
-Recall: 0.9996666666666667
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 20:
-Parameters: {'max_depth': None, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
-[[ 154    1]
- [   2 2843]]
+[[   0  155]
+ [   0 2845]]
 Model Performance:
-Accuracy: 0.999
-Precision: 0.9990041562984601
-Recall: 0.999
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 21:
-Parameters: {'max_depth': None, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
-[[ 155    0]
- [   2 2843]]
+[[   0  155]
+ [   0 2845]]
 Model Performance:
-Accuracy: 0.9993333333333333
-Precision: 0.9993418259023354
-Recall: 0.9993333333333333
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 22:
-Parameters: {'max_depth': None, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -220,7 +220,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 23:
-Parameters: {'max_depth': None, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -230,7 +230,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 24:
-Parameters: {'max_depth': None, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -240,7 +240,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 25:
-Parameters: {'max_depth': None, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -250,7 +250,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 26:
-Parameters: {'max_depth': None, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -260,7 +260,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 27:
-Parameters: {'max_depth': None, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -270,37 +270,37 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 28:
-Parameters: {'max_depth': None, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
-[[ 155    0]
+[[   0  155]
  [   0 2845]]
 Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 29:
-Parameters: {'max_depth': None, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
-[[ 155    0]
+[[   0  155]
  [   0 2845]]
 Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 30:
-Parameters: {'max_depth': None, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
-[[ 155    0]
+[[   0  155]
  [   0 2845]]
 Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 31:
-Parameters: {'max_depth': None, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -310,7 +310,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 32:
-Parameters: {'max_depth': None, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -320,7 +320,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 33:
-Parameters: {'max_depth': None, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -330,7 +330,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 34:
-Parameters: {'max_depth': None, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -340,7 +340,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 35:
-Parameters: {'max_depth': None, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -350,7 +350,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 36:
-Parameters: {'max_depth': None, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -360,37 +360,37 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 37:
-Parameters: {'max_depth': None, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
-[[ 154    1]
- [   1 2844]]
+[[   3  152]
+ [   0 2845]]
 Model Performance:
-Accuracy: 0.9993333333333333
-Precision: 0.9993333333333333
-Recall: 0.9993333333333333
+Accuracy: 0.9493333333333334
+Precision: 0.9519030141252364
+Recall: 0.9493333333333334
 
 Test 38:
-Parameters: {'max_depth': None, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
-[[ 155    0]
+[[   3  152]
  [   0 2845]]
 Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
+Accuracy: 0.9493333333333334
+Precision: 0.9519030141252364
+Recall: 0.9493333333333334
 
 Test 39:
-Parameters: {'max_depth': None, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
-[[ 155    0]
+[[   3  152]
  [   0 2845]]
 Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
+Accuracy: 0.9493333333333334
+Precision: 0.9519030141252364
+Recall: 0.9493333333333334
 
 Test 40:
-Parameters: {'max_depth': None, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -400,7 +400,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 41:
-Parameters: {'max_depth': None, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -410,7 +410,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 42:
-Parameters: {'max_depth': None, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -420,7 +420,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 43:
-Parameters: {'max_depth': None, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -430,7 +430,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 44:
-Parameters: {'max_depth': None, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -440,7 +440,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 45:
-Parameters: {'max_depth': None, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -450,37 +450,37 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 46:
-Parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
-[[ 155    0]
- [   3 2842]]
+[[   0  155]
+ [   0 2845]]
 Model Performance:
-Accuracy: 0.999
-Precision: 0.9990189873417721
-Recall: 0.999
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 47:
-Parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
-[[ 154    1]
- [   2 2843]]
+[[   0  155]
+ [   0 2845]]
 Model Performance:
-Accuracy: 0.999
-Precision: 0.9990041562984601
-Recall: 0.999
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 48:
-Parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
-[[ 155    0]
- [   3 2842]]
+[[   0  155]
+ [   0 2845]]
 Model Performance:
-Accuracy: 0.999
-Precision: 0.9990189873417721
-Recall: 0.999
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
 
 Test 49:
-Parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -490,7 +490,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 50:
-Parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -500,7 +500,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 51:
-Parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -510,7 +510,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 52:
-Parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 2}
+Parameters: {'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -520,7 +520,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 53:
-Parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 5}
+Parameters: {'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -530,7 +530,7 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 54:
-Parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 10}
+Parameters: {'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
  [   0 2845]]
@@ -540,186 +540,6 @@ Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
 Test 55:
-Parameters: {'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 56:
-Parameters: {'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 154    1]
- [   1 2844]]
-Model Performance:
-Accuracy: 0.9993333333333333
-Precision: 0.9993333333333333
-Recall: 0.9993333333333333
-
-Test 57:
-Parameters: {'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 154    1]
- [   1 2844]]
-Model Performance:
-Accuracy: 0.9993333333333333
-Precision: 0.9993333333333333
-Recall: 0.9993333333333333
-
-Test 58:
-Parameters: {'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 59:
-Parameters: {'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 60:
-Parameters: {'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 61:
-Parameters: {'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 62:
-Parameters: {'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 63:
-Parameters: {'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 64:
-Parameters: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 65:
-Parameters: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 66:
-Parameters: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 67:
-Parameters: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 68:
-Parameters: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 69:
-Parameters: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 70:
-Parameters: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 71:
-Parameters: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 72:
-Parameters: {'max_depth': None, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 73:
 Parameters: {'max_depth': 10, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -729,7 +549,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 74:
+Test 56:
 Parameters: {'max_depth': 10, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -739,7 +559,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 75:
+Test 57:
 Parameters: {'max_depth': 10, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -749,7 +569,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 76:
+Test 58:
 Parameters: {'max_depth': 10, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -759,7 +579,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 77:
+Test 59:
 Parameters: {'max_depth': 10, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -769,7 +589,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 78:
+Test 60:
 Parameters: {'max_depth': 10, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -779,7 +599,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 79:
+Test 61:
 Parameters: {'max_depth': 10, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -789,7 +609,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 80:
+Test 62:
 Parameters: {'max_depth': 10, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -799,7 +619,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 81:
+Test 63:
 Parameters: {'max_depth': 10, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -809,97 +629,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 82:
-Parameters: {'max_depth': 10, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 83:
-Parameters: {'max_depth': 10, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 84:
-Parameters: {'max_depth': 10, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 85:
-Parameters: {'max_depth': 10, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 86:
-Parameters: {'max_depth': 10, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 87:
-Parameters: {'max_depth': 10, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 88:
-Parameters: {'max_depth': 10, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 89:
-Parameters: {'max_depth': 10, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 90:
-Parameters: {'max_depth': 10, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 91:
+Test 64:
 Parameters: {'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -909,7 +639,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 92:
+Test 65:
 Parameters: {'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -919,7 +649,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 93:
+Test 66:
 Parameters: {'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -929,7 +659,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 94:
+Test 67:
 Parameters: {'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -939,7 +669,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 95:
+Test 68:
 Parameters: {'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -949,7 +679,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 96:
+Test 69:
 Parameters: {'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -959,7 +689,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 97:
+Test 70:
 Parameters: {'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -969,7 +699,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 98:
+Test 71:
 Parameters: {'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -979,7 +709,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 99:
+Test 72:
 Parameters: {'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -989,97 +719,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 100:
-Parameters: {'max_depth': 10, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 101:
-Parameters: {'max_depth': 10, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 102:
-Parameters: {'max_depth': 10, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 103:
-Parameters: {'max_depth': 10, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 104:
-Parameters: {'max_depth': 10, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 105:
-Parameters: {'max_depth': 10, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 106:
-Parameters: {'max_depth': 10, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 107:
-Parameters: {'max_depth': 10, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 108:
-Parameters: {'max_depth': 10, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 109:
+Test 73:
 Parameters: {'max_depth': 10, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1089,7 +729,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 110:
+Test 74:
 Parameters: {'max_depth': 10, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1099,7 +739,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 111:
+Test 75:
 Parameters: {'max_depth': 10, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1109,7 +749,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 112:
+Test 76:
 Parameters: {'max_depth': 10, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1119,7 +759,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 113:
+Test 77:
 Parameters: {'max_depth': 10, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1129,7 +769,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 114:
+Test 78:
 Parameters: {'max_depth': 10, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1139,7 +779,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 115:
+Test 79:
 Parameters: {'max_depth': 10, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1149,7 +789,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 116:
+Test 80:
 Parameters: {'max_depth': 10, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1159,7 +799,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 117:
+Test 81:
 Parameters: {'max_depth': 10, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1169,7 +809,97 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 118:
+Test 82:
+Parameters: {'max_depth': 10, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 83:
+Parameters: {'max_depth': 10, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 84:
+Parameters: {'max_depth': 10, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 10}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 85:
+Parameters: {'max_depth': 10, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 2}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 86:
+Parameters: {'max_depth': 10, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 5}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 87:
+Parameters: {'max_depth': 10, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 10}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 88:
+Parameters: {'max_depth': 10, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 2}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 89:
+Parameters: {'max_depth': 10, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 5}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 90:
+Parameters: {'max_depth': 10, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 10}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 91:
 Parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   4  151]
@@ -1179,7 +909,7 @@ Accuracy: 0.9496666666666667
 Precision: 0.9522034935469514
 Recall: 0.9496666666666667
 
-Test 119:
+Test 92:
 Parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   4  151]
@@ -1189,7 +919,7 @@ Accuracy: 0.9496666666666667
 Precision: 0.9522034935469514
 Recall: 0.9496666666666667
 
-Test 120:
+Test 93:
 Parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   4  151]
@@ -1199,7 +929,7 @@ Accuracy: 0.9496666666666667
 Precision: 0.9522034935469514
 Recall: 0.9496666666666667
 
-Test 121:
+Test 94:
 Parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1209,7 +939,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 122:
+Test 95:
 Parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1219,7 +949,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 123:
+Test 96:
 Parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1229,7 +959,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 124:
+Test 97:
 Parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1239,7 +969,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 125:
+Test 98:
 Parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1249,7 +979,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 126:
+Test 99:
 Parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1259,7 +989,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 127:
+Test 100:
 Parameters: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1269,7 +999,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 128:
+Test 101:
 Parameters: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1279,7 +1009,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 129:
+Test 102:
 Parameters: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1289,7 +1019,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 130:
+Test 103:
 Parameters: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1299,7 +1029,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 131:
+Test 104:
 Parameters: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1309,7 +1039,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 132:
+Test 105:
 Parameters: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1319,7 +1049,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 133:
+Test 106:
 Parameters: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1329,7 +1059,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 134:
+Test 107:
 Parameters: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1339,7 +1069,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 135:
+Test 108:
 Parameters: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1349,97 +1079,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 136:
-Parameters: {'max_depth': 10, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 137:
-Parameters: {'max_depth': 10, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 138:
-Parameters: {'max_depth': 10, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 139:
-Parameters: {'max_depth': 10, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 140:
-Parameters: {'max_depth': 10, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 141:
-Parameters: {'max_depth': 10, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 142:
-Parameters: {'max_depth': 10, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 143:
-Parameters: {'max_depth': 10, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 144:
-Parameters: {'max_depth': 10, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 145:
+Test 109:
 Parameters: {'max_depth': 20, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1449,7 +1089,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 146:
+Test 110:
 Parameters: {'max_depth': 20, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1459,7 +1099,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 147:
+Test 111:
 Parameters: {'max_depth': 20, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1469,7 +1109,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 148:
+Test 112:
 Parameters: {'max_depth': 20, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1479,7 +1119,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 149:
+Test 113:
 Parameters: {'max_depth': 20, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1489,7 +1129,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 150:
+Test 114:
 Parameters: {'max_depth': 20, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1499,7 +1139,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 151:
+Test 115:
 Parameters: {'max_depth': 20, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1509,7 +1149,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 152:
+Test 116:
 Parameters: {'max_depth': 20, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1519,7 +1159,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 153:
+Test 117:
 Parameters: {'max_depth': 20, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1529,97 +1169,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 154:
-Parameters: {'max_depth': 20, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 155:
-Parameters: {'max_depth': 20, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 156:
-Parameters: {'max_depth': 20, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 157:
-Parameters: {'max_depth': 20, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 158:
-Parameters: {'max_depth': 20, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 159:
-Parameters: {'max_depth': 20, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 160:
-Parameters: {'max_depth': 20, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 161:
-Parameters: {'max_depth': 20, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 162:
-Parameters: {'max_depth': 20, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 163:
+Test 118:
 Parameters: {'max_depth': 20, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1629,7 +1179,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 164:
+Test 119:
 Parameters: {'max_depth': 20, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1639,7 +1189,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 165:
+Test 120:
 Parameters: {'max_depth': 20, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1649,7 +1199,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 166:
+Test 121:
 Parameters: {'max_depth': 20, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1659,7 +1209,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 167:
+Test 122:
 Parameters: {'max_depth': 20, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1669,7 +1219,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 168:
+Test 123:
 Parameters: {'max_depth': 20, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1679,7 +1229,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 169:
+Test 124:
 Parameters: {'max_depth': 20, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1689,7 +1239,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 170:
+Test 125:
 Parameters: {'max_depth': 20, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1699,7 +1249,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 171:
+Test 126:
 Parameters: {'max_depth': 20, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1709,97 +1259,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 172:
-Parameters: {'max_depth': 20, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 173:
-Parameters: {'max_depth': 20, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 174:
-Parameters: {'max_depth': 20, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 175:
-Parameters: {'max_depth': 20, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 176:
-Parameters: {'max_depth': 20, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 177:
-Parameters: {'max_depth': 20, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 178:
-Parameters: {'max_depth': 20, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 179:
-Parameters: {'max_depth': 20, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 180:
-Parameters: {'max_depth': 20, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 181:
+Test 127:
 Parameters: {'max_depth': 20, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   2  153]
@@ -1809,7 +1269,7 @@ Accuracy: 0.949
 Precision: 0.9516027351567712
 Recall: 0.949
 
-Test 182:
+Test 128:
 Parameters: {'max_depth': 20, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   2  153]
@@ -1819,7 +1279,7 @@ Accuracy: 0.949
 Precision: 0.9516027351567712
 Recall: 0.949
 
-Test 183:
+Test 129:
 Parameters: {'max_depth': 20, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   2  153]
@@ -1829,7 +1289,7 @@ Accuracy: 0.949
 Precision: 0.9516027351567712
 Recall: 0.949
 
-Test 184:
+Test 130:
 Parameters: {'max_depth': 20, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1839,7 +1299,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 185:
+Test 131:
 Parameters: {'max_depth': 20, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1849,7 +1309,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 186:
+Test 132:
 Parameters: {'max_depth': 20, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1859,7 +1319,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 187:
+Test 133:
 Parameters: {'max_depth': 20, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1869,7 +1329,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 188:
+Test 134:
 Parameters: {'max_depth': 20, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1879,7 +1339,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 189:
+Test 135:
 Parameters: {'max_depth': 20, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1889,7 +1349,97 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 190:
+Test 136:
+Parameters: {'max_depth': 20, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 137:
+Parameters: {'max_depth': 20, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 138:
+Parameters: {'max_depth': 20, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 10}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 139:
+Parameters: {'max_depth': 20, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 2}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 140:
+Parameters: {'max_depth': 20, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 5}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 141:
+Parameters: {'max_depth': 20, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 10}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 142:
+Parameters: {'max_depth': 20, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 2}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 143:
+Parameters: {'max_depth': 20, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 5}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 144:
+Parameters: {'max_depth': 20, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 10}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 145:
 Parameters: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[ 111   44]
@@ -1899,7 +1449,7 @@ Accuracy: 0.9796666666666667
 Precision: 0.9786092371750232
 Recall: 0.9796666666666667
 
-Test 191:
+Test 146:
 Parameters: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[ 111   44]
@@ -1909,7 +1459,7 @@ Accuracy: 0.9796666666666667
 Precision: 0.9786092371750232
 Recall: 0.9796666666666667
 
-Test 192:
+Test 147:
 Parameters: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[ 111   44]
@@ -1919,7 +1469,7 @@ Accuracy: 0.9796666666666667
 Precision: 0.9786092371750232
 Recall: 0.9796666666666667
 
-Test 193:
+Test 148:
 Parameters: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1929,7 +1479,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 194:
+Test 149:
 Parameters: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1939,7 +1489,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 195:
+Test 150:
 Parameters: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1949,7 +1499,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 196:
+Test 151:
 Parameters: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -1959,7 +1509,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 197:
+Test 152:
 Parameters: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -1969,7 +1519,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 198:
+Test 153:
 Parameters: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -1979,7 +1529,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 199:
+Test 154:
 Parameters: {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   3  152]
@@ -1989,7 +1539,7 @@ Accuracy: 0.9493333333333334
 Precision: 0.9519030141252364
 Recall: 0.9493333333333334
 
-Test 200:
+Test 155:
 Parameters: {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   3  152]
@@ -1999,7 +1549,7 @@ Accuracy: 0.9493333333333334
 Precision: 0.9519030141252364
 Recall: 0.9493333333333334
 
-Test 201:
+Test 156:
 Parameters: {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   3  152]
@@ -2009,7 +1559,7 @@ Accuracy: 0.9493333333333334
 Precision: 0.9519030141252364
 Recall: 0.9493333333333334
 
-Test 202:
+Test 157:
 Parameters: {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2019,7 +1569,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 203:
+Test 158:
 Parameters: {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2029,7 +1579,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 204:
+Test 159:
 Parameters: {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2039,7 +1589,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 205:
+Test 160:
 Parameters: {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2049,7 +1599,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 206:
+Test 161:
 Parameters: {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2059,7 +1609,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 207:
+Test 162:
 Parameters: {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2069,97 +1619,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 208:
-Parameters: {'max_depth': 20, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 209:
-Parameters: {'max_depth': 20, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 210:
-Parameters: {'max_depth': 20, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 211:
-Parameters: {'max_depth': 20, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 212:
-Parameters: {'max_depth': 20, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 213:
-Parameters: {'max_depth': 20, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 214:
-Parameters: {'max_depth': 20, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 215:
-Parameters: {'max_depth': 20, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 216:
-Parameters: {'max_depth': 20, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 217:
+Test 163:
 Parameters: {'max_depth': 30, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2169,7 +1629,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 218:
+Test 164:
 Parameters: {'max_depth': 30, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2179,7 +1639,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 219:
+Test 165:
 Parameters: {'max_depth': 30, 'max_features': 1, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2189,7 +1649,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 220:
+Test 166:
 Parameters: {'max_depth': 30, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2199,7 +1659,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 221:
+Test 167:
 Parameters: {'max_depth': 30, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2209,7 +1669,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 222:
+Test 168:
 Parameters: {'max_depth': 30, 'max_features': 1, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2219,7 +1679,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 223:
+Test 169:
 Parameters: {'max_depth': 30, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2229,7 +1689,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 224:
+Test 170:
 Parameters: {'max_depth': 30, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2239,7 +1699,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 225:
+Test 171:
 Parameters: {'max_depth': 30, 'max_features': 1, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2249,97 +1709,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 226:
-Parameters: {'max_depth': 30, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 227:
-Parameters: {'max_depth': 30, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 228:
-Parameters: {'max_depth': 30, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 229:
-Parameters: {'max_depth': 30, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 230:
-Parameters: {'max_depth': 30, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 231:
-Parameters: {'max_depth': 30, 'max_features': 2, 'min_samples_leaf': 2, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 232:
-Parameters: {'max_depth': 30, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 233:
-Parameters: {'max_depth': 30, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 234:
-Parameters: {'max_depth': 30, 'max_features': 2, 'min_samples_leaf': 4, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 235:
+Test 172:
 Parameters: {'max_depth': 30, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2349,7 +1719,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 236:
+Test 173:
 Parameters: {'max_depth': 30, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2359,7 +1729,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 237:
+Test 174:
 Parameters: {'max_depth': 30, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2369,7 +1739,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 238:
+Test 175:
 Parameters: {'max_depth': 30, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2379,7 +1749,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 239:
+Test 176:
 Parameters: {'max_depth': 30, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2389,7 +1759,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 240:
+Test 177:
 Parameters: {'max_depth': 30, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2399,7 +1769,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 241:
+Test 178:
 Parameters: {'max_depth': 30, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2409,7 +1779,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 242:
+Test 179:
 Parameters: {'max_depth': 30, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2419,7 +1789,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 243:
+Test 180:
 Parameters: {'max_depth': 30, 'max_features': 3, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2429,97 +1799,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 244:
-Parameters: {'max_depth': 30, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 245:
-Parameters: {'max_depth': 30, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 246:
-Parameters: {'max_depth': 30, 'max_features': 4, 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 247:
-Parameters: {'max_depth': 30, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 248:
-Parameters: {'max_depth': 30, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 249:
-Parameters: {'max_depth': 30, 'max_features': 4, 'min_samples_leaf': 2, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 250:
-Parameters: {'max_depth': 30, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 2}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 251:
-Parameters: {'max_depth': 30, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 5}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 252:
-Parameters: {'max_depth': 30, 'max_features': 4, 'min_samples_leaf': 4, 'min_samples_split': 10}
-Confusion Matrix:
-[[   0  155]
- [   0 2845]]
-Model Performance:
-Accuracy: 0.9483333333333334
-Precision: 0.8993361111111111
-Recall: 0.9483333333333334
-
-Test 253:
+Test 181:
 Parameters: {'max_depth': 30, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   2  153]
@@ -2529,7 +1809,7 @@ Accuracy: 0.949
 Precision: 0.9516027351567712
 Recall: 0.949
 
-Test 254:
+Test 182:
 Parameters: {'max_depth': 30, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   2  153]
@@ -2539,7 +1819,7 @@ Accuracy: 0.949
 Precision: 0.9516027351567712
 Recall: 0.949
 
-Test 255:
+Test 183:
 Parameters: {'max_depth': 30, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   2  153]
@@ -2549,7 +1829,7 @@ Accuracy: 0.949
 Precision: 0.9516027351567712
 Recall: 0.949
 
-Test 256:
+Test 184:
 Parameters: {'max_depth': 30, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2559,7 +1839,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 257:
+Test 185:
 Parameters: {'max_depth': 30, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2569,7 +1849,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 258:
+Test 186:
 Parameters: {'max_depth': 30, 'max_features': 5, 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2579,7 +1859,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 259:
+Test 187:
 Parameters: {'max_depth': 30, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2589,7 +1869,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 260:
+Test 188:
 Parameters: {'max_depth': 30, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2599,7 +1879,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 261:
+Test 189:
 Parameters: {'max_depth': 30, 'max_features': 5, 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2609,7 +1889,97 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 262:
+Test 190:
+Parameters: {'max_depth': 30, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 191:
+Parameters: {'max_depth': 30, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 192:
+Parameters: {'max_depth': 30, 'max_features': 7, 'min_samples_leaf': 1, 'min_samples_split': 10}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 193:
+Parameters: {'max_depth': 30, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 2}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 194:
+Parameters: {'max_depth': 30, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 5}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 195:
+Parameters: {'max_depth': 30, 'max_features': 7, 'min_samples_leaf': 2, 'min_samples_split': 10}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 196:
+Parameters: {'max_depth': 30, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 2}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 197:
+Parameters: {'max_depth': 30, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 5}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 198:
+Parameters: {'max_depth': 30, 'max_features': 7, 'min_samples_leaf': 4, 'min_samples_split': 10}
+Confusion Matrix:
+[[   0  155]
+ [   0 2845]]
+Model Performance:
+Accuracy: 0.9483333333333334
+Precision: 0.8993361111111111
+Recall: 0.9483333333333334
+
+Test 199:
 Parameters: {'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[ 137   18]
@@ -2619,7 +1989,7 @@ Accuracy: 0.9826666666666667
 Precision: 0.9836931612641832
 Recall: 0.9826666666666667
 
-Test 263:
+Test 200:
 Parameters: {'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[ 137   18]
@@ -2629,7 +1999,7 @@ Accuracy: 0.9826666666666667
 Precision: 0.9836931612641832
 Recall: 0.9826666666666667
 
-Test 264:
+Test 201:
 Parameters: {'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[ 137   18]
@@ -2639,7 +2009,7 @@ Accuracy: 0.9826666666666667
 Precision: 0.9836931612641832
 Recall: 0.9826666666666667
 
-Test 265:
+Test 202:
 Parameters: {'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2649,7 +2019,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 266:
+Test 203:
 Parameters: {'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2659,7 +2029,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 267:
+Test 204:
 Parameters: {'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2669,7 +2039,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 268:
+Test 205:
 Parameters: {'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2679,7 +2049,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 269:
+Test 206:
 Parameters: {'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2689,7 +2059,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 270:
+Test 207:
 Parameters: {'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2699,7 +2069,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 271:
+Test 208:
 Parameters: {'max_depth': 30, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2}
 Confusion Matrix:
 [[   4  151]
@@ -2709,7 +2079,7 @@ Accuracy: 0.9496666666666667
 Precision: 0.9522034935469514
 Recall: 0.9496666666666667
 
-Test 272:
+Test 209:
 Parameters: {'max_depth': 30, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 5}
 Confusion Matrix:
 [[   4  151]
@@ -2719,7 +2089,7 @@ Accuracy: 0.9496666666666667
 Precision: 0.9522034935469514
 Recall: 0.9496666666666667
 
-Test 273:
+Test 210:
 Parameters: {'max_depth': 30, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix:
 [[   4  151]
@@ -2729,7 +2099,7 @@ Accuracy: 0.9496666666666667
 Precision: 0.9522034935469514
 Recall: 0.9496666666666667
 
-Test 274:
+Test 211:
 Parameters: {'max_depth': 30, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2739,7 +2109,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 275:
+Test 212:
 Parameters: {'max_depth': 30, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2749,7 +2119,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 276:
+Test 213:
 Parameters: {'max_depth': 30, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2759,7 +2129,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 277:
+Test 214:
 Parameters: {'max_depth': 30, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 2}
 Confusion Matrix:
 [[   0  155]
@@ -2769,7 +2139,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 278:
+Test 215:
 Parameters: {'max_depth': 30, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 5}
 Confusion Matrix:
 [[   0  155]
@@ -2779,7 +2149,7 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 279:
+Test 216:
 Parameters: {'max_depth': 30, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 10}
 Confusion Matrix:
 [[   0  155]
@@ -2789,102 +2159,12 @@ Accuracy: 0.9483333333333334
 Precision: 0.8993361111111111
 Recall: 0.9483333333333334
 
-Test 280:
-Parameters: {'max_depth': 30, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 281:
-Parameters: {'max_depth': 30, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 282:
-Parameters: {'max_depth': 30, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 283:
-Parameters: {'max_depth': 30, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 284:
-Parameters: {'max_depth': 30, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 285:
-Parameters: {'max_depth': 30, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 286:
-Parameters: {'max_depth': 30, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 2}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 287:
-Parameters: {'max_depth': 30, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 5}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
-Test 288:
-Parameters: {'max_depth': 30, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 10}
-Confusion Matrix:
-[[ 155    0]
- [   0 2845]]
-Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-
 Best Parameters:
-{'max_depth': None, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
+{'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10}
 Confusion Matrix (Best Model):
-[[ 155    0]
- [   0 2845]]
+[[ 137   18]
+ [  34 2811]]
 Best Model Performance:
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
+Accuracy: 0.9826666666666667
+Precision: 0.9836931612641832
+Recall: 0.9826666666666667
