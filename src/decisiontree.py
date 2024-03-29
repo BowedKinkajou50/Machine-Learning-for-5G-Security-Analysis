@@ -7,10 +7,10 @@ from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from sklearn.model_selection import GridSearchCV
 
 param_grid = {
-    'max_depth': [None, 10, 20, 30],
+    'max_depth': [5, 10, 20, 30],
     'min_samples_split': [2, 5, 10],
     'min_samples_leaf': [1, 2, 4],
-    'max_features': [1, 2, 3, 4, 5, 'sqrt', 'log2', None]
+    'max_features': [1, 3, 5, 7, 'sqrt', 'log2']
 }
 
 # Load the dataset
