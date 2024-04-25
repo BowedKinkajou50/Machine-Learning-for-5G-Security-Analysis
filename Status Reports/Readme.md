@@ -33,16 +33,14 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Week 1 Status Report | Implementation and Testing | Went over semester plan | |
 | Week 2 Status Report | Implementation and Testing | Worked on Implementation and went over questions with sponsor | |
 | Week 3 Status Report | Implementation and Testing | Worked on Implementation and went over questions with sponsor | |
-| Week 4 Status Report | | | |
-| Week 5 Status Report | | | |
-| Week 6 Status Report | | | |
-| Week 7 Status Report | | | |
-| Week 8 Status Report | | | |
-| Week 9 Status Report | | | |
-| Week 10 Status Report | | | |
-| Week 11 Status Report | | | |
-| Week 12 Status Report | | | |
-| Week 13 Status Report | | | |
-| Week 14 Status Report | | | |
-| Week 15 Status Report | | | |
-| Week 16 Status Report | | | |
+| Week 4 Status Report | Implementation and Testing | Worked on Implementation and went over questions with sponsor | |
+| Week 5 Status Report | Implementation and Testing | Worked on Implementation and went over questions with sponsor | |
+| Week 6 Status Report | Implementation and Testing | Worked on Implementation and went over questions with sponsor | Issues with neural network algorithm |
+| Week 7 Status Report | Implementation and Testing | Worked on Implementation and went over questions with sponsor | Issues with neural network algorithm |
+| Week 8 Status Report | Implementation and Testing | Worked on Implementation and went over questions with sponsor | Issues with neural network algorithm |
+| Week 9 Status Report | Implementation, Testing, Abstract, and Poster| Worked on Implementation and went over questions with sponsor | Issues with neural network algorithm |
+| Week 10 Status Report | Implementation, Testing, Abstract, and Poster| Worked on Implementation and went over questions with sponsor | Issues with neural network algorithm |
+| Week 11 Status Report | Testing | Worked on testing and went over questions with sponsor | |
+| Week 12 Status Report | Testing and Final Paper| Worked on testing and final paper| This week’s meeting was canceled due to the sponsor having a schedule conflict |
+| Week 13 Status Report | Testing and Final Paper| Worked on testing and final paper| This week’s meeting was canceled due to the sponsor having a schedule conflict |
+| Week 14 Status Report | N/A | Finalized project and presented it at the Capstone Design Expo| The Final meeting was canceled due to expo preparations |
