@@ -14,14 +14,14 @@ This senior capstone project focuses on utilizing machine learning algorithms fo
 ## Background
 Wireless networks are becoming both increasingly critical to modern life and increasingly complex and difficult to secure.  Applying ML to the analysis of cyber attack graphs, a common way to represent the steps for completing a cyber attack, represents a promising path for supporting the security of modern wireless networks.
 
+## Structure
 | Folder | Description |
 |---|---|
 | Documentation |  all documentation the project team has created to describe the architecture, design, installation and configuratin of the peoject |
 | Notes and Research | Relavent information useful to understand the tools and techniques used in the project |
 | Status Reports | Project management documentation - weekly reports, milestones, etc. |
-| scr | Source code - create as many subdirectories as needed |
+| src | Source code - create as many subdirectories as needed |
 
-## Structure
 src/: Contains the source code for the machine learning algorithms and datasets.
 - naivebayesddos.py: Implementation of Gaussian naive bayes with the ddos_modified.csv dataset.
 - naivebayesfraud.py: Implementation of Gaussian naive bayes with the fraud_modified.csv dataset.
