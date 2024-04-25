@@ -25,8 +25,8 @@ Wireless networks are becoming both increasingly critical to modern life and inc
 src/: Contains the source code for the machine learning algorithms and datasets.
 - naivebayesddos.py: Implementation of Gaussian naive bayes with the ddos_modified.csv dataset.
 - naivebayesfraud.py: Implementation of Gaussian naive bayes with the fraud_modified.csv dataset.
-- decisiontree.py: Implementation of decision tree classifier with the ddos_modified.csv dataset.
-- decisiontreeFraud.py: Implementation of decision tree classifer with the fraud_modified.csv dataset.
+- decisiontreeddos.py: Implementation of decision tree classifier with the ddos_modified.csv dataset.
+- decisiontreefraud.py: Implementation of decision tree classifer with the fraud_modified.csv dataset.
 - neuralnetworkddos.py: Implementation of multi-layer perceptron classifier with the ddos_modified.csv dataset.
 - neuralnetworksfraud.py: Implementation of multi-layer perceptron classifier with the fraud_modified.csv dataset.
 - ddos_modified.csv: The DDoS dataset.
